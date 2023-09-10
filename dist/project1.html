@@ -14,7 +14,7 @@
     <!-- Nav Start -->
 
     <div class="">
-        <nav class="  w-full h-14 px-4 lg:px-44 bg-indigo-200 flex justify-between items-center relative ">
+        <nav class=" z-10  w-full h-14 px-4 lg:px-44 bg-indigo-200 flex justify-between items-center relative ">
             <div class="text-indigo-700 font-bold">PW Skils</div>
 
             <ul class="md:flex hidden gap-5 text-lg text-slate-900 ">
@@ -27,24 +27,26 @@
                 class="hidden md:block font-semibold  bg-indigo-600 shadow-md text-indigo-200 px-5 py-1 rounded-md hover:bg-indigo-700">
                 SignUp/Login
             </button>
-            <a id="mobiltogol" onclick="mobilemenu()" class="block text-2xl px-3 hover:font-bold md:hidden"
-                href="#">&#8801;</a>
+            <button type="button" id="mobiltogol" onclick="mobilemenu()" class=" text-2xl px-3 md:hidden"
+                href="#">&#8801;</button>
 
 
 
         </nav>
         <!-- Mobile Menu field -->
-        <div id="mobileM" class="w-full h-auto p-5 bg-indigo-50 shadow-lg absolute hidden">
+        <div id="mobileM" class="w-full h-auto p-5 bg-indigo-50 shadow-lg absolute hidden
+
+        ">
 
             <div>
                 <ul class="flex flex-col gap-2">
-                    <li class=" w-full font-semibold text-slate-900 hover:text-indigo-700 ">Home</li>
-                    <li class=" w-full font-semibold text-slate-900 hover:text-indigo-700 ">About Us</li>
-                    <li class=" w-full font-semibold text-slate-900 hover:text-indigo-700 ">Contact Us</li>
+                    <li class="anmc w-full font-semibold text-slate-900 hover:text-indigo-700 ">Home</li>
+                    <li class="anmc w-full font-semibold text-slate-900 hover:text-indigo-700 ">About Us</li>
+                    <li class="anmc w-full font-semibold text-slate-900 hover:text-indigo-700 ">Contact Us</li>
                 </ul>
             </div>
             <button
-                class=" mt-2 font-semibold  bg-indigo-600 shadow-md text-indigo-200 px-5 py-1 rounded-md hover:bg-indigo-700">
+                class="anmc mt-2 font-semibold  bg-indigo-600 shadow-md text-indigo-200 px-5 py-1 rounded-md hover:bg-indigo-700">
                 SignUp/Login
             </button>
 
@@ -73,8 +75,8 @@
         <img class="md:hidden w-full opacity-50"
             src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVybyUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60"
             alt="">
-        </header>
-        <!-- Hero Ends here -->
+    </header>
+    <!-- Hero Ends here -->
 
     <!-- Student Section Start -->
     <div class="mt-6 flex flex-wrap gap-6 justify-center">
@@ -85,26 +87,128 @@
         </div>
         <div class="w-52 p-5 bg-indigo-50 bg-opacity-5 rounded-xl shadow-xl flex flex-col items-center">
             <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="">
-            <p class="text-xl font-bold text-white ">10,000+</p>
+            <p class="text-xl font-bold text-white ">23,000+</p>
             <p class="text-sm font-semibold text-slate-400 ">Got Placed at Company</p>
         </div>
         <div class="w-52 p-5 bg-indigo-50 bg-opacity-5 rounded-xl shadow-xl flex flex-col items-center">
             <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="">
-            <p class="text-xl font-bold text-white ">10,000+</p>
+            <p class="text-xl font-bold text-white ">5,000+</p>
             <p class="text-sm font-semibold text-slate-400 ">Got Placed at Company</p>
         </div>
-        <div class="w-52 p-5 bg-indigo-50 bg-opacity-5 rounded-xl shadow-xl flex flex-col items-center">
-            <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="">
-            <p class="text-xl font-bold text-white ">10,000+</p>
-            <p class="text-sm font-semibold text-slate-400 ">Got Placed at Company</p>
-        </div>
-        <div class="w-52 p-5 bg-indigo-50 bg-opacity-5 rounded-xl shadow-xl flex flex-col items-center">
-            <img src="https://cdn-icons-png.flaticon.com/512/5850/5850276.png" alt="">
-            <p class="text-xl font-bold text-white ">10,000+</p>
-            <p class="text-sm font-semibold text-slate-400 ">Got Placed at Company</p>
-        </div>
+
     </div>
     <!-- Student ends -->
+
+    <!-- Footer Start -->
+    <footer class="bg-slate-900 mt-10 text-white ">
+
+        <div class="md:flex md:justify-center">
+            <!-- About section of footer Start -->
+            <div class=" text-xs p-1">
+                <div class="p-4">
+                    <img class="h-9 p-0" src="/asets/PWSkills-white.png" alt="">
+                </div>
+
+                <div class="px-5">
+                    <span>
+                        &#9993;
+                    </span>
+                    <a href="#">support@pwskills.com</a>
+                </div>
+
+                <div class="px-5 mt-2">
+                    <span class="">&phone;</span>
+
+                    <a href="#">+91 7666122288</a>
+                </div>
+            </div>
+            <!-- About section of footer end -->
+
+            <!-- company and footer section Start -->
+            <div class="flex flex-wrap">
+                <!-- company section Start -->
+                <div class="p-5">
+                    <div class="mb-3">Company</div>
+                    <div class="border-b-2 rounded-full border-orange-600"></div>
+                    <div class=" flex flex-wrap gap-20">
+                        <div class="mt-10">
+                            <ul class="text-xs flex flex-col gap-3">
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    About Us</li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    FAQ</li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Privacy policy</li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-10">
+                            <ul class="text-xs flex flex-col gap-3">
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Contact Us</li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Job assurance</li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Terms and condition</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- company section End -->
+
+                <!-- product section Start -->
+                <div class="p-5">
+                    <div class="mb-3">Product</div>
+                    <div class="border-b-2 rounded-full border-orange-600"></div>
+                    <div class=" flex flex-wrap gap-20">
+                        <div class="mt-10">
+                            <ul class="text-xs flex flex-col gap-3">
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    <a href="#">PW Skils Lab</a>
+                                </li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    <a href="#">Experience Portal</a>
+                                </li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    <a href="#">Hall Of fame</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-10">
+                            <ul class="text-xs flex flex-col gap-3">
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Job Portal</li>
+                                <li
+                                    class="cursor-pointer hover:translate-x-1 hover:text-orange-600 active:text-orange-500 hover:transition-all">
+                                    Become an affiliate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- product section End -->
+            </div>
+            <!-- company and footer section end -->
+        </div>
+
+        <!-- copyrite Start -->
+        <div class="p-4 bg-slate-950 text-white text-xs flex items-center justify-center">
+            Copyright © 2023 PW Skils
+        </div>
+        <!-- copyrite end -->
+
+    </footer>
+    <!-- Footer End -->
 
 
     <script>
